@@ -21,7 +21,7 @@ Additionally, a **Dim_Date** table was created using a DAX function to facilitat
 ### **Files Required for Full Analysis:**
 - **Data Source:** `Plant_DTS.xls` (Excel file with sales, account, and product hierarchy data)
 - **Power BI Dashboard:** `image.png` (Snapshot of the dashboard)
-- **Power BI File:** (if needed, to explore further DAX measures and modeling)
+- **Power BI File:** `PerformReport.pbix`
 
 ## **3. Executive Summary**
 - **Sales Performance**: The company’s **YTD sales stand at $3.57M**, slightly **declining by $135.89K (-3.6%)** compared to the PYTD ($3.71M).
@@ -31,6 +31,8 @@ Additionally, a **Dim_Date** table was created using a DAX function to facilitat
 - **Account Profitability**: Segmentation analysis suggests a strong correlation between high-value accounts and high GP%.
 
 ## **4. Insights Deep Dive**
+![Sales Performance Dashboard](https://github.com/PranitHande7/Green-Planet-Co.---Sales-Performance-Analytics/blob/main/performreport.png)
+
 ### **1. Year-Over-Year Performance (YTD vs PYTD)**
 - The overall sales **declined by $135.89K** compared to the same period last year.
 - Some regions, including **Canada (-73.71K) and Colombia (-61.12K),** saw major drops in sales.

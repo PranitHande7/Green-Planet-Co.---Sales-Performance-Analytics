@@ -52,7 +52,7 @@ Below is the overview page from the PowerBI dashboard and more examples are incl
 - **Higher GP%** is generally associated with higher-value accounts.
 - Identifying low-GP% accounts and optimizing pricing strategies could improve profitability.
 
-### ** Recommendations**
+# Recommendations
 🔹 **Target Underperforming Markets**  
    - Canada and Colombia need **targeted marketing efforts** or pricing adjustments to recover lost sales.  
    - Consider **customer segmentation** to offer personalized incentives.  
@@ -66,8 +66,7 @@ Below is the overview page from the PowerBI dashboard and more examples are incl
 
 ---
 
-# DAX Measures and Modeling Details
-For technical teams, the following are the key DAX measures that drive the report:
+# Glossary
 
 ### **1. Creating a Date Table**
 ```DAX

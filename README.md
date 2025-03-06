@@ -1,6 +1,6 @@
 # Green-Planet-Co. Sales-Performance-Analytics
 
-## **1. Background and Overview**
+## **1. Project Background**
 Green Planet Co. is a large-scale plant company that sells a variety of products across multiple regions. To analyze sales performance, profitability, and year-over-year trends, we developed an interactive Power BI dashboard. The report provides deep insights into sales trends, gross profit margins, and product performance at different levels of granularity (country, product, and account level).
 
 The key objectives of this analysis are:
@@ -9,7 +9,9 @@ The key objectives of this analysis are:
 - Analyzing account profitability to optimize sales strategies.
 - Enabling dynamic filtering and visualization to facilitate business decisions.
 
-## **2. Data Structure and Overview**
+An interactive PowerBI dashboard can be viewed [here].
+
+## **2. Data Structure and Initial Checks**
 The dataset consists of three core tables:
 
 - **Fact_Sales**: Contains sales invoices, including revenue, cost of goods sold (COGS), and quantity.

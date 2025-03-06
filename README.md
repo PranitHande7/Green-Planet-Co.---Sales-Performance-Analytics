@@ -1,6 +1,6 @@
 # Green-Planet-Co. Sales-Performance-Analytics
 
-### ** Project Background**
+# Project Background
 Green Planet Co. is a large-scale plant company that sells a variety of products across multiple regions. To analyze sales performance, profitability, and year-over-year trends, we developed an interactive Power BI dashboard. The report provides deep insights into sales trends, gross profit margins, and product performance at different levels of granularity (country, product, and account level).
 
 The key objectives of this analysis are:
@@ -11,7 +11,7 @@ The key objectives of this analysis are:
 
 An interactive PowerBI dashboard can be viewed [here](https://github.com/PranitHande7/Green-Planet-Co.---Sales-Performance-Analytics/blob/main/PerformReport.pbix).
 
-### ** Data Structure and Initial Checks**
+# Data Structure and Initial Checks
 The dataset consists of three core tables:
 
 - **Fact_Sales**: Contains sales invoices, including revenue, cost of goods sold (COGS), and quantity.
@@ -27,14 +27,14 @@ Additionally, a **Dim_Date** table was created using a DAX function to facilitat
 - **Power BI Dashboard:** `performreport.png` (Snapshot of the dashboard)
 - **Power BI File:** `PerformReport.pbix`
 
-### ** Executive Summary**
+# Executive Summary
 - **Sales Performance**: The company’s **YTD sales stand at $3.57M**, slightly **declining by $135.89K (-3.6%)** compared to the PYTD ($3.71M).
 - **Gross Profit Margin**: **39.15%**, indicating a stable profitability percentage.
 - **Bottom 10 Markets**: Canada, Colombia, and Croatia experienced the largest declines in sales compared to PYTD.
 - **Product Performance**: Sales varied across product types, with notable declines in outdoor plant categories in March and April.
 - **Account Profitability**: Segmentation analysis suggests a strong correlation between high-value accounts and high GP%.
 
-### ** Overview of Findings**
+# Overview of Findings
 
 Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire dashboard can be viewed [here](https://github.com/PranitHande7/Green-Planet-Co.---Sales-Performance-Analytics/blob/main/PerformReport.pbix).
 ![Sales Performance Dashboard](https://github.com/PranitHande7/Green-Planet-Co.---Sales-Performance-Analytics/blob/main/performreport.png)
@@ -66,7 +66,7 @@ Below is the overview page from the PowerBI dashboard and more examples are incl
 
 ---
 
-### **DAX Measures and Modeling Details**
+# DAX Measures and Modeling Details
 For technical teams, the following are the key DAX measures that drive the report:
 
 ### **1. Creating a Date Table**

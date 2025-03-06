@@ -24,7 +24,7 @@ Additionally, a **Dim_Date** table was created using a DAX function to facilitat
 
 ### **Files Required for Full Analysis:**
 - **Data Source:** `Plant_DTS.xls` (Excel file with sales, account, and product hierarchy data)
-- **Power BI Dashboard:** `performreport.png` (Snapshot of the dashboard)
+- **Power BI Dashboard:** `PerformReport.png` (Snapshot of the dashboard)
 - **Power BI File:** `PerformReport.pbix`
 
 # Executive Summary
@@ -37,7 +37,7 @@ Additionally, a **Dim_Date** table was created using a DAX function to facilitat
 # Overview of Findings
 
 Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire dashboard can be viewed [here](https://github.com/PranitHande7/Green-Planet-Co.---Sales-Performance-Analytics/blob/main/PerformReport.pbix).
-![Sales Performance Dashboard](https://github.com/PranitHande7/Green-Planet-Co.---Sales-Performance-Analytics/blob/main/performreport.png)
+![Sales Performance Dashboard](https://github.com/PranitHande7/Green-Planet-Co.---Sales-Performance-Analytics/blob/main/PerformReport.png)
 
 ### **1. Year-Over-Year Performance (YTD vs PYTD)**
 - The overall sales **declined by $135.89K** compared to the same period last year.

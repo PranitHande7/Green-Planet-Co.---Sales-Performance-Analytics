@@ -4,12 +4,12 @@
 Green Planet Co. is a large-scale plant company that sells a variety of products across multiple regions. To analyze sales performance, profitability, and year-over-year trends, we developed an interactive Power BI dashboard. The report provides deep insights into sales trends, gross profit margins, and product performance at different levels of granularity (country, product, and account level).
 
 The key objectives of this analysis are:
-- Understanding sales trends across different time periods (YTD vs. PYTD).
+- Understanding sales trends across different time periods YTD(Year to date) vs PYTD(Prior year to date).
 - Identifying underperforming regions and products.
 - Analyzing account profitability to optimize sales strategies.
 - Enabling dynamic filtering and visualization to facilitate business decisions.
 
-An interactive PowerBI dashboard can be viewed [here].
+An interactive PowerBI dashboard can be viewed [here](https://github.com/PranitHande7/Green-Planet-Co.---Sales-Performance-Analytics/blob/main/PerformReport.pbix).
 
 ## **2. Data Structure and Initial Checks**
 The dataset consists of three core tables:
@@ -20,9 +20,11 @@ The dataset consists of three core tables:
 
 Additionally, a **Dim_Date** table was created using a DAX function to facilitate time-based calculations.
 
+## Add an image of the data model.
+
 ### **Files Required for Full Analysis:**
 - **Data Source:** `Plant_DTS.xls` (Excel file with sales, account, and product hierarchy data)
-- **Power BI Dashboard:** `image.png` (Snapshot of the dashboard)
+- **Power BI Dashboard:** `performreport.png` (Snapshot of the dashboard)
 - **Power BI File:** `PerformReport.pbix`
 
 ## **3. Executive Summary**
@@ -32,7 +34,9 @@ Additionally, a **Dim_Date** table was created using a DAX function to facilitat
 - **Product Performance**: Sales varied across product types, with notable declines in outdoor plant categories in March and April.
 - **Account Profitability**: Segmentation analysis suggests a strong correlation between high-value accounts and high GP%.
 
-## **4. Insights Deep Dive**
+## **4. Overview of Findings**
+
+Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire dashboard can be viewed [here](https://github.com/PranitHande7/Green-Planet-Co.---Sales-Performance-Analytics/blob/main/PerformReport.pbix).
 ![Sales Performance Dashboard](https://github.com/PranitHande7/Green-Planet-Co.---Sales-Performance-Analytics/blob/main/performreport.png)
 
 ### **1. Year-Over-Year Performance (YTD vs PYTD)**

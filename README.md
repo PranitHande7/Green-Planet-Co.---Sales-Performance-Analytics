@@ -22,11 +22,6 @@ Additionally, a **Dim_Date** table was created using a DAX function to facilitat
 
 `Add an image of the data model.png`
 
-### **Files Required for Full Analysis:**
-- **Data Source:** `Plant_DTS.xls` (Excel file with sales, account, and product hierarchy data)
-- **Power BI Dashboard:** `PerformReport.png` (Snapshot of the dashboard)
-- **Power BI File:** `PerformReport.pbix`
-
 # Executive Summary
 - **Sales Performance**: The company’s **YTD sales stand at $3.57M**, slightly **declining by $135.89K (-3.6%)** compared to the PYTD ($3.71M).
 - **Gross Profit Margin**: **39.15%**, indicating a stable profitability percentage.
@@ -44,58 +39,70 @@ Gross Profit Percentage (GP%): 39.15%, showing stable profitability despite the 
 This insight highlights a minor decline in sales performance compared to the previous year, suggesting a need to investigate underperforming regions and product categories. Switching the filter to Gross Profit or Quantity would provide further clarity on profitability trends and sales volume dynamics.
 
 Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire dashboard can be viewed [here](https://github.com/PranitHande7/Green-Planet-Co.---Sales-Performance-Analytics/blob/main/PerformReport.pbix).
+
 ![Sales Performance Dashboard](https://github.com/PranitHande7/Green-Planet-Co.---Sales-Performance-Analytics/blob/main/PerformReport.png)
 
-### **1. Year to Year Performance | Bottom 10 YTD vs PYTD by Country ** 
+## **1. Year to Year Performance** 
+
+### Bottom 10 YTD vs PYTD by Country
 - The visualization highlights the 10 worst-performing countries based on Year-to-Date (YTD) sales compared to the Previous Year-to-Date (PYTD).The darker shades represent countries with larger sales declines, while the lighter shades indicate smaller drops.
 - Canada (-73.71K) and Colombia (-61.12K) have experienced the highest YTD sales declines, signaling potential market challenges, demand shifts, or competitive pressure in these regions.
 - Other significantly impacted markets include Croatia (-48.52K), Germany (-44.04K), and Hungary (-32.07K), suggesting a broader trend of reduced performance in these regions.
 - Countries such as Vietnam, South Korea, Czech Republic, Greece, and Kenya also show notable declines between -27.60K and -23.89K.
-- image `bottom10.png`
+  
+![image1](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/bottom10.png)
 
-### **2. Product & Regional Trends | Sales YTD vs PYTD | Month - Country - Product**
+## **2. Product & Regional Trends**
+
+### 2.1 Sales YTD vs PYTD by Month - Country - Product
 - This visual represents the month-over-month change in Year-to-Date (YTD) vs Previous Year-to-Date (PYTD) sales, showing where sales have increased or decreased.
 - February saw a strong increase of +0.34M, making it the best-performing month in YTD vs PYTD comparison.
 - January (-0.08M) showed a small dip, possibly due to seasonal demand fluctuations.
 - March (-0.15M) and April (-0.24M) had significant drops, with April being the worst-performing month in terms of YTD vs PYTD sales difference.
 - Total net change for the period is -0.14M, indicating an overall sales decline compared to the previous year.
-- `image YTDvsPYTD.png`
+  
+![image5](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/YTDvsPYTD.png)
 
-### Drill-Down Insight: March Sales YTD vs PYTD by Country
-**We dive deep into the decline of sales in the month of March by country offering deeper insights into regions which contributed to the overall negative YTD vs PYTD sales.**
+### 2.1.1 Drill-Down Insight: March Sales YTD vs PYTD by Country
+- **We dive deep into the decline of sales in the month of March by country offering deeper insights into regions which contributed to the overall negative YTD vs PYTD sales.**
 - Countries like Colombia, Canada, and Croatia show significant negative contributions, with sales dropping between -0.06M and -0.07M.
 - Many other countries, including Greece, Germany, and Japan, also recorded losses, further driving the overall sales decline in March.
 - A few regions, such as Poland (+0.05M), Thailand (+0.09M), and the United States (+0.04M), performed well and partially offset the decline.
 - Despite pockets of growth in select countries, the majority of regions recorded negative variances, leading to an overall decline in March sales compared to PYTD.
 - The cumulative total for March is still negative, emphasizing the need for further analysis into product performance, demand shifts, or operational challenges.
-- `image March.png`
+  
+![image3](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/March.png)
 
-### Drill-Down Insight: Canada’s Sales YTD vs PYTD by Product Type
-** Major decline was seen in Canada, Colombia and Croatia. The following chart provides a deeper analysis of Canada’s YTD vs PYTD sales performance, categorized by product type. The breakdown helps pinpoint which product segments contributed most to the overall sales decline in the region.
+### 2.1.2 Drill-Down Insight: Canada’s Sales YTD vs PYTD by Product Type
+- **Major decline was seen in Canada, Colombia and Croatia. The following chart provides a deeper analysis of Canada’s YTD vs PYTD sales performance, categorized by product type. The breakdown helps pinpoint which product segments contributed most to the overall sales decline in the region.**
 - Indoor products saw the largest drop (-145K), indicating a significant loss in sales compared to the previous year.
 - Landscape products also declined (-118K), further adding to the overall downward trend.
 - Outdoor products showed an increase of +128K, partially offsetting the losses from other categories.
 - Overall, despite the gain in outdoor products, the total net change for Canada remains negative (-136K), confirming the need for intervention in the Indoor and Landscape categories.
-- `canada.png`
+  
+![image6](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/canada.png)
 
-### Drill-Down Insight: Indoor Product Sales Decline in Canada
-**Indoor products indicated significant loss in canada, the following chart highlights which specific products contributed most to the overall decline in this category.
+### 2.1.3 Drill-Down Insight: Indoor Product Sales Decline in Canada
+- **Indoor products indicated significant loss in canada, the following chart highlights which specific products contributed most to the overall decline in this category.**
 - Several indoor plant products such as Acacia dealbata Maiden (-0.02M) and Acalypha hispida (-0.02M)  have shown negative YTD vs PYTD sales differences, with some losing as much as -0.02M to -0.01M in revenue.
 - While the category as a whole showed a decline, some indoor plants saw YTD gains, to name a few are Aspidistra elatior (+0.02M), Aloe vera (+0.02M) and Begonia convolvulacea (+0.03M).
-- `image Indoor.png`
+  
+![image2](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/Indoor.png)
 
-### 2.1 Sales YTD and PYTD | Month
+### 2.2 Sales YTD and PYTD by Month
 - The chart provides a breakdown of sales performance (YTD) by product type across different months while comparing it to PYTD sales
 - Strong Q1 performance can be observed. February had the highest sales ($1.15M), driven by strong Landscape category growth ($0.46M) making it the best-performing month so far whereas March remained stable ($1.19M) but had a slightly higher PYTD ($1.04M), indicating last year’s stronger performance.
 - A sharp decline can be seen in April where sales dropped drastically to $0.39M, affecting all product categories. The steep PYTD decline suggests April is historically weak, requiring further analysis.
-`stacked.png`
+  
+![image4](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/Stackedbar.png)
 
-### **3. Account Profitability**
+## **3. Account Profitability**
 - The plot analyzes account profitability (GP%) against total sales (YTD value), helping identify high-value and high-margin accounts while identifying areas for improvement.
 - Most accounts fall within low-to-moderate sales value (<$20K) but vary significantly in gross profit percentage (GP%).
 - Accounts with high GP% (>40%) and high sales (>20K) are key profit drivers and should be prioritized.
 - Some accounts generate high sales but have GP% below 40%, indicating potential pricing or cost issues. These accounts may benefit from margin improvement strategies.
-`segmen.png`
+  
+![image7](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/segmen.png)
 
 # Recommendations
 

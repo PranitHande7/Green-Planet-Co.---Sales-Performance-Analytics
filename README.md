@@ -20,7 +20,7 @@ The dataset consists of three core tables:
 
 Additionally, a **Dim_Date** table was created using a DAX function to facilitate time-based calculations.
 
- ![image9](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/DataModel.png)
+ ![image10](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/DataMod.png)
 
 # Executive Summary
 - **Sales Performance**: The company’s **YTD sales stand at $3.57M**, slightly **declining by $135.89K (-3.6%)** compared to the PYTD ($3.71M).

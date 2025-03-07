@@ -20,7 +20,7 @@ The dataset consists of three core tables:
 
 Additionally, a **Dim_Date** table was created using a DAX function to facilitate time-based calculations.
 
-`Add an image of the data model.png`
+ ![image9](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/DataModel.png)
 
 # Executive Summary
 - **Sales Performance**: The company’s **YTD sales stand at $3.57M**, slightly **declining by $135.89K (-3.6%)** compared to the PYTD ($3.71M).
@@ -50,7 +50,7 @@ Below is the overview page from the PowerBI dashboard and more examples are incl
 - Other significantly impacted markets include Croatia (-48.52K), Germany (-44.04K), and Hungary (-32.07K), suggesting a broader trend of reduced performance in these regions.
 - Countries such as Vietnam, South Korea, Czech Republic, Greece, and Kenya also show notable declines between -27.60K and -23.89K.
   
-![image1](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/bottom10.png)
+ ![image1](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/bottom10.png)
 
 ## **2. Product & Regional Trends**
 
@@ -61,7 +61,7 @@ Below is the overview page from the PowerBI dashboard and more examples are incl
 - March (-0.15M) and April (-0.24M) had significant drops, with April being the worst-performing month in terms of YTD vs PYTD sales difference.
 - Total net change for the period is -0.14M, indicating an overall sales decline compared to the previous year.
   
-![image5](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/YTDvsPYTD.png)
+ ![image5](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/YTDvsPYTD.png)
 
 ### 2.1.1 Drill-Down Insight: March Sales YTD vs PYTD by Country
 - **We dive deep into the decline of sales in the month of March by country offering deeper insights into regions which contributed to the overall negative YTD vs PYTD sales.**
@@ -71,7 +71,7 @@ Below is the overview page from the PowerBI dashboard and more examples are incl
 - Despite pockets of growth in select countries, the majority of regions recorded negative variances, leading to an overall decline in March sales compared to PYTD.
 - The cumulative total for March is still negative, emphasizing the need for further analysis into product performance, demand shifts, or operational challenges.
   
-![image3](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/March.png)
+ ![image3](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/March.png)
 
 ### 2.1.2 Drill-Down Insight: Canada’s Sales YTD vs PYTD by Product Type
 - **Major decline was seen in Canada, Colombia and Croatia. The following chart provides a deeper analysis of Canada’s YTD vs PYTD sales performance, categorized by product type. The breakdown helps pinpoint which product segments contributed most to the overall sales decline in the region.**
@@ -80,21 +80,21 @@ Below is the overview page from the PowerBI dashboard and more examples are incl
 - Outdoor products showed an increase of +128K, partially offsetting the losses from other categories.
 - Overall, despite the gain in outdoor products, the total net change for Canada remains negative (-136K), confirming the need for intervention in the Indoor and Landscape categories.
   
-![image6](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/canada.png)
+ ![image6](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/canada.png)
 
 ### 2.1.3 Drill-Down Insight: Indoor Product Sales Decline in Canada
 - **Indoor products indicated significant loss in canada, the following chart highlights which specific products contributed most to the overall decline in this category.**
 - Several indoor plant products such as Acacia dealbata Maiden (-0.02M) and Acalypha hispida (-0.02M)  have shown negative YTD vs PYTD sales differences, with some losing as much as -0.02M to -0.01M in revenue.
 - While the category as a whole showed a decline, some indoor plants saw YTD gains, to name a few are Aspidistra elatior (+0.02M), Aloe vera (+0.02M) and Begonia convolvulacea (+0.03M).
   
-![image2](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/Indoor.png)
+ ![image2](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/Indoor.png)
 
 ### 2.2 Sales YTD and PYTD by Month
 - The chart provides a breakdown of sales performance (YTD) by product type across different months while comparing it to PYTD sales
 - Strong Q1 performance can be observed. February had the highest sales ($1.15M), driven by strong Landscape category growth ($0.46M) making it the best-performing month so far whereas March remained stable ($1.19M) but had a slightly higher PYTD ($1.04M), indicating last year’s stronger performance.
 - A sharp decline can be seen in April where sales dropped drastically to $0.39M, affecting all product categories. The steep PYTD decline suggests April is historically weak, requiring further analysis.
   
-![image4](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/Stackedbar.png)
+ ![image4](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/Stackedbar.png)
 
 ## **3. Account Profitability**
 - The plot analyzes account profitability (GP%) against total sales (YTD value), helping identify high-value and high-margin accounts while identifying areas for improvement.
@@ -102,7 +102,7 @@ Below is the overview page from the PowerBI dashboard and more examples are incl
 - Accounts with high GP% (>40%) and high sales (>20K) are key profit drivers and should be prioritized.
 - Some accounts generate high sales but have GP% below 40%, indicating potential pricing or cost issues. These accounts may benefit from margin improvement strategies.
   
-![image7](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/segmen.png)
+ ![image7](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/segmen.png)
 
 # Recommendations
 
